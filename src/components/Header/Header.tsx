@@ -94,7 +94,7 @@ export function Header() {
         <button
           className={`header__burger ${
             isMenuOpen ? 'header__burger--active' : ''
-          }`}
+          } ${isDarkSection ? 'header__burger--light' : ''}`}
           type="button"
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
           aria-expanded={isMenuOpen}

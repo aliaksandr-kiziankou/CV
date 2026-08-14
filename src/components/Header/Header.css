@@ -111,6 +111,10 @@
       opacity 200ms ease;
   }
 
+  .header__burger--light span {
+    background: white;
+  }
+
   .header__burger--active span:nth-child(1) {
     transform: translateY(7px) rotate(45deg);
   }
