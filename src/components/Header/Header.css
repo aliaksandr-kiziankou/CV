@@ -115,6 +115,10 @@
     background: white;
   }
 
+  .header__burger--active span {
+    background: var(--foreground);
+  }
+
   .header__burger--active span:nth-child(1) {
     transform: translateY(7px) rotate(45deg);
   }
