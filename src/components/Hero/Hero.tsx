@@ -8,7 +8,7 @@ export function Hero() {
         <div className="hero__image-wrapper">
           <img
             className="hero__image"
-            src="/avatar.png"
+            src={`${import.meta.env.BASE_URL}avatar.png`}
             alt="Alex Kizenkov"
           />
         </div>

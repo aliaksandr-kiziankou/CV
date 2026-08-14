@@ -6,7 +6,7 @@ const projects = [
     title: 'Not Fight Club',
     description:
       'Single-page application with battle logic, movement and heroes featuring dynamic layouts, interactive elements and a strong visual focus.',
-    image: '/portfolio/not-fight-club.png',
+    image: `${import.meta.env.BASE_URL}portfolio/not-fight-club.png`,
     technologies: ['HTML5', 'CSS', 'JavaScript'],
     liveUrl: 'https://aliaksandr-kiziankou.github.io/not-fight-club/',
     githubUrl: 'https://github.com/aliaksandr-kiziankou/not-fight-club',
@@ -16,7 +16,7 @@ const projects = [
     title: 'Shelter',
     description:
       'A responsive multi-page website for an animal shelter, featuring pet profiles, interactive navigation, pagination and adaptive layouts for different screen sizes.',
-    image: '/portfolio/shelter.png',
+    image: `${import.meta.env.BASE_URL}portfolio/shelter.png`,
     technologies: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
     liveUrl: 'https://aliaksandr-kiziankou.github.io/shelter/',
     githubUrl: 'https://github.com/aliaksandr-kiziankou/shelter',
@@ -26,7 +26,7 @@ const projects = [
     title: 'JS Clock',
     description:
       'A JavaScript clock with multiple time zones, real-time updates and customizable alarms.',
-    image: '/portfolio/clock.png',
+    image: `${import.meta.env.BASE_URL}portfolio/clock.png`,
     technologies: ['HTML5', 'CSS3', 'JavaScript', 'Web APIs'],
     liveUrl: 'https://aliaksandr-js-clock.netlify.app/',
     githubUrl: '#',
@@ -36,7 +36,7 @@ const projects = [
     title: 'JS Drum Kit',
     description:
       'An interactive browser drum kit with playable drum pads and a sampler. Play drums over built-in melodies or beats, with real-time keyboard and mouse controls.',
-    image: '/portfolio/drum-kit.png',
+    image: `${import.meta.env.BASE_URL}portfolio/drum-kit.png`,
     technologies: ['HTML5', 'CSS3', 'JavaScript', 'Web Audio API'],
     liveUrl: 'https://aliaksandr-drum-kit.netlify.app/',
     githubUrl: '#',
@@ -46,7 +46,7 @@ const projects = [
     title: 'Christmas Shop',
     description:
       'A responsive Christmas-themed online shop with festive visual design, product presentation and interactive UI elements.',
-    image: '/portfolio/christmas-shop.png',
+    image: `${import.meta.env.BASE_URL}portfolio/christmas-shop.png`,
     technologies: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
     liveUrl: 'https://aliaksandr-christmas-shop.netlify.app/',
     githubUrl: '#',
