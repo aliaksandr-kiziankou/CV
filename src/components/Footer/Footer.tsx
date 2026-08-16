@@ -8,7 +8,7 @@ export function Footer() {
     <footer id="contact" className="footer">
       <div className="footer__inner">
         <div className="footer__heading">
-          <p className="section-label">06 / Contact</p>
+          <p className="section-label">Contact</p>
 
           <h2 className="footer__title">
             Let's work

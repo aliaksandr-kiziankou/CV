@@ -59,7 +59,7 @@ export function Portfolio() {
     <section id="portfolio" className="portfolio">
       <div className="portfolio__inner">
         <div className="portfolio__heading">
-          <p className="section-label">04 / Portfolio</p>
+          <p className="section-label">Portfolio</p>
 
           <h2 className="portfolio__title">
             Selected

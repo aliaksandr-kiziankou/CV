@@ -58,7 +58,7 @@ export function Skills() {
     <section id="skills" className="skills">
       <div className="skills__inner">
         <div className="skills__heading">
-          <p className="section-label">02 / Skills</p>
+          <p className="section-label">Skills</p>
 
           <h2 className="skills__title">
             Things I

@@ -20,7 +20,7 @@ export function Languages() {
     <section id="languages" className="languages">
       <div className="languages__inner">
         <div className="languages__heading">
-          <p className="section-label">05 / Languages</p>
+          <p className="section-label">Languages</p>
 
           <h2 className="languages__title">
             Communication

@@ -32,7 +32,7 @@ export function Courses() {
 
       <div className="courses__content">
         <div className="courses__heading">
-          <p className="section-label">03 / Courses</p>
+          <p className="section-label">Courses</p>
 
           <h2 className="courses__title">
             Learning
