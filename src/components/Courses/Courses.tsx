@@ -9,6 +9,7 @@ const courses = [
     platform: 'RS School',
     description:
       'JavaScript, TypeScript, DOM, asynchronous programming, REST API and frontend development.',
+    certificate: 'https://app.rs.school/certificate/nwjptttk',
   },
   {
     year: '2026',
@@ -16,6 +17,7 @@ const courses = [
     platform: 'RS School',
     description:
       'HTML, CSS, responsive layouts, JavaScript and modern frontend workflow.',
+    certificate:'',
   },
 ];
 
@@ -67,6 +69,17 @@ export function Courses() {
                 <p className="course__description">
                   {course.description}
                 </p>
+
+                {course.certificate && (
+                  <a
+                    href={course.certificate}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="course__certificate"
+                  >
+                    Certificate
+                  </a>
+                )}
               </div>
             </article>
           ))}
